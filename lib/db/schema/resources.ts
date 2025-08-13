@@ -10,6 +10,10 @@ export const resources = pgTable("resources", {
     .primaryKey()
     .$defaultFn(() => nanoid()),
   content: text("content").notNull(),
+  sourceUrl: text("source_url"),
+  title: text("title"),
+  contentHash: varchar("content_hash", { length: 64 }),
+  lastScraped: timestamp("last_scraped"),
 
   createdAt: timestamp("created_at")
     .notNull()

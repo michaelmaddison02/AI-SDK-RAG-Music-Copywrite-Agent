@@ -8,6 +8,20 @@
       "when": 1719997972944,
       "tag": "0000_yielding_bloodaxe",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1755100993071,
+      "tag": "0001_ambitious_black_widow",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1755102317973,
+      "tag": "0002_rapid_white_queen",
+      "breakpoints": true
     }
   ]
 }
